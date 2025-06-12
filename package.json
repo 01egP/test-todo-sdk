@@ -1,0 +1,38 @@
+{
+  "name": "test-todo-sdk",
+  "version": "1.0.0",
+  "description": "Simple SDK for Todo API",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest",
+    "example": "node examples/basic-usage.js"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "keywords": [
+    "todo",
+    "tasks",
+    "sdk",
+    "api client",
+    "jsonplaceholder",
+    "task manager",
+    "nodejs",
+    "rest",
+    "http client",
+    "javascript"
+  ],
+  "author": "01egP <ponomarenko147@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/01egP/test-todo-sdk.git"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
